@@ -4,3 +4,5 @@
 [20-Aug-2020 09:27:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/elsatutu/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 21
 [20-Aug-2020 09:29:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/elsatutu/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 21
 [20-Aug-2020 10:40:57 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/elsatutu/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 10
+[20-Aug-2020 13:32:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/elsatutu/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[20-Aug-2020 13:36:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/elsatutu/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 10
