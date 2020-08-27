@@ -1,27 +1,15 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head>
-  <?php wp_head(); ?>
-  <meta charset="UTF-8<?php bloginfo('charset') ?>">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-</head>
-<body <?php body_class(); ?>>
-
-
-  <!DOCTYPE html>
-<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fictional University</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i" rel="stylesheet" />
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" /> -->
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php wp_head(); ?>
+    <link rel="shortcut icon" href="#" />
   </head>
-  <body>
+  <body <?php body_class(); ?>>
     <header class="site-header">
-      <div class="container">
-        <h1 class="school-logo-text float-left">
+    <div class="container">
+      <h1 class="school-logo-text float-left"><a href="<?php echo site_url() ?>"><strong>Fictional</strong> University</a></h1>
           <a href="<?php echo site_url('/') ?>"><strong>Fictional</strong> University</a>
         </h1>
         <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
